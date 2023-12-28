@@ -1,0 +1,36 @@
+/*
+Theme Name: Child Theme
+Description: Дочерняя тема
+Template: understrap
+*/
+
+@import url("../understrap/css/theme-bootstrap4.min.css");
+
+.home_page .item,
+.objects_page .item {
+	padding-bottom:40px;
+}
+.home_page .item img,
+.objects_page .item img {
+	object-fit:cover;
+	width:100%;
+	height:200px;
+}
+
+.object_info {
+	width:100%;
+}
+.object_info tr td:first-child {
+	font-weight:bold;
+}
+
+.object_images img {
+	object-fit:cover;
+	width:100%;
+	height:150px;
+	margin-bottom:20px;
+}
+@media (max-width:600px){
+	.object_images img {
+	}
+}
